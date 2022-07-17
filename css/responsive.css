@@ -135,15 +135,21 @@
     }
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 360px) {
     .home {
-        background-image: linear-gradient(#00000096, #000000bf), url('../images/banner-0.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
         background-position: center;
     }
+    .home .home-content .text-1 {
+        font-size: 23px;
+    }
     .home .home-content .text-2 {
-        font-size: 48px;
+        font-size: 41px;
+    }
+    .home .home-content .text-3 {
+        font-size: 23px;
+    }
+    .home .home-content a {
+        padding: 7px 25px;
     }
     .services .serv-content .card,
     .teams .carousel .card {
