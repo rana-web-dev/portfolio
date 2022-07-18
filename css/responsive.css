@@ -101,9 +101,6 @@
     .contact .contact-content .right {
         margin-top: 30px;
     }
-}
-
-@media screen and (max-width: 690px) {
     .max-width {
         padding: 0 23px;
     }
@@ -131,13 +128,13 @@
         background-position: center;
     }
     .home .home-content .text-1 {
-        font-size: 22px;
+        font-size: 23px;
     }
     .home .home-content .text-2 {
-        font-size: 35px;
+        font-size: 43px;
     }
     .home .home-content .text-3 {
-        font-size: 22px;
+        font-size: 23px;
     }
     .home .home-content a {
         padding: 7px 25px;
@@ -147,14 +144,3 @@
         background: #000;
     }
 }
-
-/* @media screen and (max-width: 520px) {
-    .max-width {
-        padding: 0 15px;
-    }
-    .home {
-        background: url(../images/profile-1.jpeg);
-        background-size: cover;
-        background-attachment: fixed;
-    }
-} */
